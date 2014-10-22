@@ -5,7 +5,9 @@
 # Execution Policy
 #Set-ExecutionPolicy bypass
 
-mkdir "C:\TaxOneInstall" -ErrorAction SilentlyContinue
+mkdir "C:\TaxOneInstall" -ErrorAction SilentlyContinue 
+
+shutdown.exe
 
 ## Get Domain
 Add-Type -AssemblyName System.DirectoryServices.AccountManagement 
